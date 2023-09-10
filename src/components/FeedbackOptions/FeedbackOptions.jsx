@@ -7,7 +7,7 @@ class FeedbackOptions extends Component {
       <>
         {this.props.options.map((option, index) => (
           <Button key={index} onClick={this.props.onLeaveFeedback}>
-            {option.replace(option[0], option[0].toUpperCase())}
+            {option}
           </Button>
         ))}
       </>
